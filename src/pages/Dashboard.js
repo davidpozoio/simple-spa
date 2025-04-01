@@ -3,6 +3,7 @@ import { ShowMenu } from "../components/ShowMenu.js";
 
 export const Dashboard = () => {
   const dashboard = document.createElement("div");
+  dashboard.className = "dashboard";
   dashboard.textContent = "Dashboard page";
 
   dashboard.appendChild(ShowMenu());
