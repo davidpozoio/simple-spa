@@ -4,9 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "docker compose up --build"
+    "dev": "docker compose up --build",
+    "build": "./bin/build.sh"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "esbuild": "^0.25.2"
+  }
 }
