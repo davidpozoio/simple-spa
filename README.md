@@ -6,4 +6,4 @@ You must install docker. If you're using windows you should start docker desktop
 npm run dev
 ```
 
-Open `http://localhost:3000` to see the page.
+Open `http://localhost:4000` to see the page.
